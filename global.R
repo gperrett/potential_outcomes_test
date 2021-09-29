@@ -1,4 +1,3 @@
-options(encoding = "UTF-8")
 require(shiny)
 #library(shiny)
 # for reading data
