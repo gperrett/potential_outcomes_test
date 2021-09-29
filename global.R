@@ -1,6 +1,5 @@
 options(encoding = "UTF-8")
-
-library(shiny)
+require(shiny)
 #library(shiny)
 # for reading data
 # require(foreign)
@@ -9,14 +8,14 @@ library(shiny)
 
 # for javascript and Shiny tools
 install.packages('shinyjs')
-library(shinyjs) # for running javascript on the server-side
-library(shinyWidgets) # for alerts
+require(shinyjs) # for running javascript on the server-side
+require(shinyWidgets) # for alerts
 #require(DT) # for javascript datatables
 #require(sortable) # for drag and drop divs
 #require(kableExtra) # for one html table. Can easily replace with one custom function -- see https://github.com/joemarlo/sequenchr/blob/57375aebe59330cfcc02d69a7fd98ec476a6bf28/R/helpers.R#L173
 
 # for data munging and plotting
-library(tidyverse)
+require(tidyverse)
 #require(patchwork) # for combining ggplots
 #require(viridis) # for color blind sensitive colors
 #require(rpart.plot) # for plotting single regression tree
